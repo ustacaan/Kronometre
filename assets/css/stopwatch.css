@@ -1,0 +1,56 @@
+/* Variables */
+:root {
+  --orange: #FFB000;
+  --grey: #f3f3f3;
+  --white: #fff;
+  --base-color: #FFB000;
+}
+
+/* Styles */
+body {
+  background-color: rgb(169, 123, 239);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 60px auto;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+  font-size: 45px;
+}
+
+button {
+  background-color: rgb(90, 231, 90);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 19px;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+  text-shadow: 1px 1px 2px gray;
+
+  &:hover {
+    background-color: white;
+    border: 1px solid rgb(108, 107, 107);
+    color: rgb(90, 231, 90);
+  }
+}
